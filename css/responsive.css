@@ -170,4 +170,11 @@
         height: 50px;
        
     }
+    #sale {
+        padding-bottom: 178px;
+    }
+    #product .cart_item img {
+        padding: 0px 0px;
+        padding-top: 1px;
+    }
 }

@@ -651,12 +651,12 @@ nav{
     text-align: center;
     padding-top: -4px;
 }
-#product .cart_wrapper{
-    padding-top: 108.05px;
-    
+#product .slider_item{
+    margin: 0 10px;
+    width: 100%;
 }
-.slick-slider {
-    top: 15px;
+#product .product_item{
+    margin-top: 215px;
 }
 #product .icon_one {
     width: 50px;
@@ -674,7 +674,7 @@ nav{
     padding-left: 15px;
 }
 
-#product .cart_wrapper .icon_two {
+#product .product_item .icon_two {
     width: 50px;
     height: 50px;
     border-radius: 50%;
