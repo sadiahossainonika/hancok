@@ -292,10 +292,10 @@ nav{
     right: 0;
     border: 1px solid #FFFFFF;
 }
-.slick-slider {
+/* .slick-slider {
     top: -110px;
     
-}
+} */
 /*-----------------popular css end--------------*/
 /*-----------------live css start--------------*/
 #live{
@@ -878,7 +878,7 @@ nav{
     font-size: 40px;
     font-weight: 600px;
     color: #FFFFFF;
-    width: 864px;
+    width: 831px;
     padding: 35px 0 34px 30px;
     font-family: 'Barlow Condensed', sans-serif;
 }

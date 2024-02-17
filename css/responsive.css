@@ -1,4 +1,4 @@
-@media (min-width:320px) and (max-width:576px) {
+@media (min-width:320px) and (max-width:575px) {
     .navbar-collapse {
         background: #FF4655;
         padding-bottom: 20px;
@@ -14,14 +14,10 @@
         font-size: 26px;
     }
     #about .title h3::after {
-        right: 239px;
-        bottom: 3px;
+     display: none;
     }
     #banner .text_area h1::after {
-        width: 76px;
-        bottom: 15px;
-        right: -14px;
-        background: #FF4655;
+      display: none;
     }
     img, svg {
         width: 100%;
@@ -42,12 +38,12 @@
     #popular .title h2 {
         font-weight: 500;
         font-size: 29px;
-        width: 364px;
+        width: 309px;
        
     }
     #popular .title h2::after {
        width: 88px;
-       right: 96px;
+       right: 144px;
         bottom: 8px;
     }
     #popular {
@@ -69,7 +65,8 @@
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
     #sale .sale_title h2 {
-       width: 337px;
+       width: 315px;
+       font-size: 37px;
        
     }
     #sale .sale_title h2::after {
@@ -80,7 +77,7 @@
        width: 289px;
     }
     #sale .game_wrapper p {
-        width: 324px;
+        width: 313px;
     }
     #sale .game_wrapper .text-area {
         padding-top: 28px;
@@ -94,7 +91,7 @@
     }
     #sale .game_wrapper .game_image {
         padding-left: 19px;
-        padding-top: 40px;
+        padding-top: 20px;
     }
     .game_image{
         width: 93%;
@@ -111,14 +108,14 @@
     }
     #team .team_title h2 {
          font-size: 29px;
-        width: 338px; 
+        width: 314px; 
     }
     #team .team_title h2::after {
        display: none;
     }
     #answer .answer_title h2 {
-      font-size: 27px;
-       width: 382px;  
+      font-size: 30px;
+       width: 351px;  
     }
     #answer .answer_title h2::after {
        display: none;
@@ -129,21 +126,20 @@
         gap: 22px;
     }
     #answer .answer_item h3 {
-        padding-left: 23px;
+        padding-left: 22px;
     }
     .footer_logo{
         width: 65%;
     }
     #answer .answer_item h3 {
-        padding-right: 50px;
+        padding-right: 38px;
     }
     #answer .answer_text-area h4 {
-        font-size: 16px;
-       
+        font-size: 17px;
     }
     #answer .answer_text-area p {
-       font-size: 15px;
-        width: 257px;
+        font-size: 15px;
+        width: 235px;
     }
     #footer .email_box input {
         width: 296px;
@@ -159,10 +155,11 @@
     }
     #footer .subcribed_title h3 {
         font-size: 21px;
+        width: 218px;
        
     }
     #footer .email_box a {
-        left: 247px;
+        left: 205px;
         bottom: 0px; 
     }
     #footer .email_box a {
@@ -176,5 +173,497 @@
     #product .cart_item img {
         padding: 0px 0px;
         padding-top: 1px;
+    }
+    #banner .text_area p {
+        width: 320px;
+       
+    }
+    #about .title h3 {
+     width: 363px;
+    }
+    #live .title h3 {
+        font-size: 36px; 
+        width: 357px;
+    }
+    #live .title h3::after {
+      display: none;
+    }
+    #answer .answer_item {
+        padding: 0;
+    }
+    #footer .footer_wrapper p {
+        width: 314px;
+    }
+    .right_icon {
+      display: block !important;
+        position: absolute;
+       top: 57px  !important;
+       left: 0 !important;
+       z-index: 999;
+        
+    }
+    .left_icon {
+        bottom: 69px;
+       
+    }
+    #product .icon_one {
+         left: -11px;
+        bottom: 565px;
+      
+    }
+    #product .product_item .icon_two {  
+        right: -5px;
+        bottom: 552px;   
+    }
+    #product .product_item {
+        margin-top: 95px;
+    }
+    .slick-listtwo{
+        height: 100px !important;
+    }
+}
+@media (min-width:576px) and (max-width:768px) {
+    .navbar-collapse {
+        background: #FF4655;
+        padding-bottom: 20px;
+    }
+    nav{
+        z-index: 999;
+    }
+    #banner {
+        padding-bottom: 103px;
+        padding-top: 123px;
+    }
+    #about .title h3 {
+        font-size: 26px;
+    }
+    #about .title h3::after {
+     display: none;
+    }
+    #banner .text_area h1::after {
+      display: none;
+    }
+    img, svg {
+        width: 100%;
+    }
+    .about_right_side{
+        margin-top: 20px
+    }
+    .row{
+        gap: 20px;
+    }
+    .popular_right{
+        margin-top: 350px;
+    }
+    .popular_laft img {
+        top: -202px;
+    }
+    #popular .title h2 {
+        font-weight: 500;
+        font-size: 29px;
+        width: 309px;
+       
+    }
+    #popular .title h2::after {
+       width: 88px;
+       right: 144px;
+        bottom: 8px;
+    }
+    #popular {
+        padding-top: 57px;
+    }
+    .slick-list{
+        height: 1000px;
+    }
+    .match img{
+        width: 23%;
+    }
+    
+    #live .match .team_item {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        margin-left: -38px;
+    }
+    #live .match .team_itemright {
+       
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #sale .sale_title h2 {
+       width: 315px;
+       font-size: 37px;
+       
+    }
+    #sale .sale_title h2::after {
+       display: none;
+    }
+    #sale .game_wrapper h2 {
+        font-size: 27px;
+       width: 289px;
+    }
+    #sale .game_wrapper p {
+        width: 603px;
+    }
+    #sale .game_wrapper .text-area {
+        padding-top: 28px;
+    }
+    #sale .game_wrapper p {
+       padding-bottom: 20px;
+    }
+    #sale .game_wrapper h2 {
+       padding-bottom: -2px;
+     
+    }
+    #sale .game_wrapper .game_image {
+        padding-left: 19px;
+        padding-top: 20px;
+    }
+    .game_image{
+        width: 93%;
+    }
+    #product .product_title h2 {
+          font-size: 26px;
+          width: 345px;
+    }
+    #product .product_title h2 {
+        padding-top: 50px;
+    }
+    #product .product_title h2::after {
+        left: 171px;
+    }
+    #team .team_title h2 {
+        font-size: 38px;
+        width: 474px;
+    }
+    #team .team_title h2::after {
+       right: 193px;
+        bottom: 9px;
+    }
+    #answer .answer_title h2 {
+      font-size: 30px;
+       width: 351px;  
+    }
+    #answer .answer_title h2::after {
+       display: none;
+    }
+    #answer .answer_item {
+        margin-bottom: 26px;
+        padding-left: 13px;
+        gap: 22px;
+    }
+    #answer .answer_item h3 {
+        padding-left: 22px;
+    }
+    .footer_logo {
+        width: 45%;
+    }
+    #answer .answer_item h3 {
+        padding-right: 38px;
+    }
+    #answer .answer_text-area h4 {
+        font-size: 17px;
+    }
+    #answer .answer_text-area p {
+        font-size: 16px;
+        width: 379px;
+    }
+    #footer .email_box input {
+        width: 409px;
+        height: 40px;
+        padding: 25px;
+        margin-left: 9px;
+        margin-top: 81px;
+    }
+    #footer .subcribed_title {
+       
+        left: -21px;
+        bottom: 45px;
+    }
+    #footer .subcribed_title h3 {
+        font-size: 25px;
+        width: 465px;
+    }
+    #footer .email_box a {
+        left: 301px;
+        bottom: 0px;
+    }
+    #footer .email_box a {
+        width: 117px;
+        height: 50px;
+    }
+    #sale {
+        padding-bottom: 350px;
+        background: #212529;
+    }
+    #product .cart_item img {
+        padding: 0px 0px;
+        padding-top: 1px;
+    }
+    #banner .text_area p {
+        width: 523px;
+       
+    }
+    #about .title h3 {
+     width: 363px;
+    }
+    #live .title h3 {
+        font-size: 36px; 
+        width: 357px;
+    }
+    #live .title h3::after {
+      display: none;
+    }
+    #answer .answer_item {
+        padding: 0;
+    }
+    #footer .footer_wrapper p {
+        width: 417px;
+    }
+    .right_icon {
+      display: block !important;
+        position: absolute;
+       top: 57px  !important;
+       left: 0 !important;
+       z-index: 999;
+        
+    }
+    .left_icon {
+        bottom: 69px;
+       
+    }
+    #product .icon_one {
+        left: -8px;
+        bottom: 823px;
+    }
+    #product .product_item .icon_two {
+        right: -11px;
+        bottom: 815px;
+    }
+    #product .product_item {
+        margin-top: 95px;
+    }
+    .popular_rightimg{
+        margin-top: 84px;
+    }
+}
+@media (min-width:769px) and (max-width:992px) {
+    .navbar-collapse {
+        background: #FF4655;
+        padding-bottom: 20px;
+    }
+    nav{
+        z-index: 999;
+    }
+    #banner {
+        padding-bottom: 103px;
+        padding-top: 123px;
+    }
+    #about .title h3 {
+        font-size: 26px;
+    }
+    #about .title h3::after {
+        right: -35px;
+        bottom: 6px;
+    }
+    #banner .text_area h1::after {
+      display: none;
+    }
+    img, svg {
+        width: 100%;
+    }
+    .about_right_side{
+        margin-top: 20px
+    }
+    .row{
+        gap: 20px;
+    }
+    .popular_right{
+        margin-top: 350px;
+    }
+    .popular_laft img {
+        top: -252px;
+    }
+    #popular .title h2 {
+        font-weight: 500;
+        font-size: 29px;
+        width: 309px;
+       
+    }
+    #popular .title h2::after {
+       width: 88px;
+       right: 144px;
+        bottom: 8px;
+    }
+    #popular {
+        padding-top: 57px;
+    }
+    .slick-list{
+        height: 1250px;
+    }
+    .match img{
+        width: 23%;
+    }
+    
+    #live .match .team_item {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        margin-left: -38px;
+    }
+    #live .match .team_itemright {
+       
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    #sale .sale_title h2 {
+       width: 315px;
+       font-size: 37px;
+       
+    }
+    #sale .sale_title h2::after {
+       display: none;
+    }
+    #sale .game_wrapper h2 {
+        font-size: 27px;
+       width: 289px;
+    }
+    #sale .game_wrapper p {
+        width: 603px;
+    }
+    #sale .game_wrapper .text-area {
+        padding-top: 28px;
+    }
+    #sale .game_wrapper p {
+       padding-bottom: 20px;
+    }
+    #sale .game_wrapper h2 {
+       padding-bottom: -2px;
+     
+    }
+    #sale .game_wrapper .game_image {
+        padding-left: 19px;
+        padding-top: 20px;
+    }
+    .game_image{
+        width: 93%;
+    }
+    #product .product_title h2 {
+          font-size: 26px;
+          width: 345px;
+    }
+    #product .product_title h2 {
+        padding-top: 50px;
+    }
+    #product .product_title h2::after {
+        left: 171px;
+    }
+    #team .team_title h2 {
+        font-size: 38px;
+        width: 474px;
+    }
+    #team .team_title h2::after {
+       right: 193px;
+        bottom: 9px;
+    }
+    #answer .answer_title h2 {
+      font-size: 30px;
+       width: 351px;  
+    }
+    #answer .answer_title h2::after {
+       display: none;
+    }
+    #answer .answer_item {
+        margin-bottom: 26px;
+        padding-left: 13px;
+        gap: 22px;
+    }
+    #answer .answer_item h3 {
+        padding-left: 22px;
+    }
+    .footer_logo {
+        width: 45%;
+    }
+    #answer .answer_item h3 {
+        padding-right: 38px;
+    }
+    #answer .answer_text-area h4 {
+        font-size: 17px;
+    }
+    #answer .answer_text-area p {
+        font-size: 16px;
+        width: 379px;
+    }
+    #footer .email_box input {
+        width: 409px;
+        height: 40px;
+        padding: 25px;
+        margin-left: 9px;
+        margin-top: 81px;
+    }
+    #footer .subcribed_title {
+       
+        left: -21px;
+        bottom: 45px;
+    }
+    #footer .subcribed_title h3 {
+        font-size: 25px;
+        width: 465px;
+    }
+    #footer .email_box a {
+        left: 301px;
+        bottom: 0px;
+    }
+    #footer .email_box a {
+        width: 117px;
+        height: 50px;
+    }
+    #sale {
+        padding-bottom: 350px;
+        background: #212529;
+    }
+    #product .cart_item img {
+        padding: 0px 0px;
+        padding-top: 1px;
+    }
+    #banner .text_area p {
+        width: 523px;
+       
+    }
+    #about .title h3 {
+     width: 363px;
+    }
+    #live .title h3 {
+        font-size: 36px; 
+        width: 357px;
+    }
+    #live .title h3::after {
+      display: none;
+    }
+    #answer .answer_item {
+        padding: 0;
+    }
+    #footer .footer_wrapper p {
+        width: 417px;
+    }
+    .right_icon {
+      display: block !important;
+        position: absolute;
+       top: 57px  !important;
+       left: 0 !important;
+       z-index: 999;
+        
+    }
+    .left_icon {
+        bottom: 69px;
+       
+    }
+    #product .icon_one {
+        left: -8px;
+        bottom: 823px;
+    }
+    #product .product_item .icon_two {
+        right: -11px;
+        bottom: 815px;
+    }
+    #product .product_item {
+        margin-top: 95px;
+    }
+    .popular_rightimg {
+        margin-top: 217px;
     }
 }
